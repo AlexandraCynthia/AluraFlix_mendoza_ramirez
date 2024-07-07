@@ -1,0 +1,72 @@
+.video-card {
+  border: 7px solid;
+  padding: 10px;
+  width: 429.19px;
+  height: 290.85px;
+  top: 2.58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+
+
+
+.video-card a {
+  display: block;
+  text-decoration: none;
+}
+
+.video-card img {
+  max-width: 435px;
+  border-radius: 8px;
+}
+
+.video-card-actions {
+  display: flex;
+  justify-content: space-around;
+  width: 430px;
+  height: 99px;
+  background-color: black;
+
+}
+
+.video-card-actions button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.video-card-actions button:hover {
+  text-decoration: underline;
+}
+
+
+.img-card{
+  width: 430px;
+  height: 260.85px;
+  padding: 0%;
+  margin: 0%;
+}
+
+
+.video-card-actions .edit-button {
+  color: white;
+}
+
+.video-card-actions .delete-button {
+  color: white;
+}
+
+.video-card-actions button:hover {
+  opacity: 0.8;
+}
+
+.video-card-actions button .fa-icon {
+  margin-right: 5px;
+}

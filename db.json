@@ -1,0 +1,84 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "titulo": "¿Qué es Javascript2024?",
+      "categoria": "FrontEnd",
+      "imagen": "https://res.cloudinary.com/dgxnatqij/image/upload/v1719283305/front2_lrtkjv.png",
+      "video": "https://youtu.be/GJfOSoaXk4s?si=GlIkTmS0khKntzal",
+      "descripcion": "JavaScript: ¿qué es y cómo se hizo este lenguaje que genera muchas discusiones y debates entre la gente del área de desarrollo? Genesys y Gabriela nos hablan exactamente de esto en este Alura Tips."
+    },
+    {
+      "id": "4",
+      "titulo": "Iniciando en Back End",
+      "categoria": "BackEnd",
+      "imagen": "https://res.cloudinary.com/dgxnatqij/image/upload/v1719464770/f2_apcxpc.png",
+      "video": "https://youtu.be/3aK3Omo2RrU?si=oxkYaKq90dlL05Gt",
+      "descripcion": "En este Alura.tips nuestra instructora Genesys Rondon nos comentará un poco de como fue su experiencia dejando de trabajar con JavaScript y empezando a trabajar con Java."
+    },
+    {
+      "id": "6",
+      "titulo": "Transición de Javascript a Java1",
+      "categoria": "BackEnd",
+      "imagen": "https://res.cloudinary.com/dgxnatqij/image/upload/v1719464770/f3_aicbmn.png",
+      "video": "https://youtu.be/3aK3Omo2RrU?si=Blo1gNQM8YKFVyi7",
+      "descripcion": "En este Alura.tips nuestra instructora Genesys Rondon nos comentará un poco de como fue su experiencia dejando de trabajar con JavaScript y empezando a trabajar con Java."
+    },
+    {
+      "id": "7",
+      "titulo": "Las 7 soft skills más deseadas",
+      "categoria": "Innovacion",
+      "imagen": "https://res.cloudinary.com/dgxnatqij/image/upload/v1719463626/img3_nibyx4.png",
+      "video": "https://youtu.be/YhR7Zp8NUzE?si=j4NV4qZCEyfuzR0B",
+      "descripcion": "Seguro que ya escuchaste hablar sobre las Soft Skills, pero ¿sabes cuáles son las 7 más buscadas por las empresas? Quédate en este video con nosotros que vamos a explicarte la importancia de estas habilidades y porque son tan requeridas en el mercado laboral."
+    },
+    {
+      "id": "8",
+      "titulo": "Innovación y gestión",
+      "categoria": "Innovacion",
+      "imagen": "https://res.cloudinary.com/dgxnatqij/image/upload/v1719463628/img2_xgj4o7.png",
+      "video": "https://youtu.be/JB3fkSo8wS0?si=JEUDxBs8iXSEQvAT",
+      "descripcion": "Quais são os pilares da inteligência emocional e como podemos trabalhar cada um deles, afinal? A Priscila Stuani fala exatamente sobre isso no vídeo e explica como estes aspectos podem contribuir em nossas relações profissionais, pessoais e em nosso dia a dia. Confira!"
+    },
+    {
+      "id": "9",
+      "titulo": "¿Qué son las soft skills?",
+      "categoria": "Innovacion",
+      "imagen": "https://res.cloudinary.com/dgxnatqij/image/upload/v1719463628/img2_xgj4o7.png",
+      "video": "https://youtu.be/vhwspfvI52k?si=T1KRhhDi4lBmoxUC",
+      "descripcion": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral? En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas por las empresas en sus profesionales y cómo las Soft Skills te ayudan en el día a día."
+    },
+    {
+      "id": "1719778511526",
+      "titulo": "PRUEBA 0559",
+      "categoria": "BackEnd",
+      "imagen": "https://res.cloudinary.com/dgxnatqij/image/upload/v1719283305/front2_lrtkjv.png",
+      "video": "https://res.cloudinary.com/dgxnatqij/image/upload/v1719283305/front2_lrtkjv.png",
+      "descripcion": "0315"
+    },
+    {
+      "id": "1719788628348",
+      "titulo": "CANDY CANDY white andry4",
+      "categoria": "FrontEnd",
+      "imagen": "https://res.cloudinary.com/dgxnatqij/image/upload/v1719283305/front2_lrtkjv.png",
+      "video": "https://youtu.be/GJfOSoaXk4s?si=GlIkTmS0khKntzal",
+      "descripcion": "0604"
+    },
+    {
+      "id": "1720060158910",
+      "titulo": "HOLA COMO ESTASSSSSSSSSSSS",
+      "categoria": "Back End",
+      "imagen": "https://res.cloudinary.com/dgxnatqij/image/upload/v1719284412/back_end1_rhvhio.png",
+      "video": "https://youtu.be/3aK3Omo2RrU?si=Blo1gNQM8YKFVyi7",
+      "descripcion": "gracias"
+    },
+    {
+      "id": "1720320829011",
+      "titulo": "HOLA COMO ESTASSSSSSSSSSSS",
+      "categoria": "FrontEnd",
+      "imagen": "https://res.cloudinary.com/dgxnatqij/image/upload/v1719283305/front1_mazgqx.png",
+      "video": "https://youtu.be/PztCEdIJITY?si=-_gh7sf28Wwg6u5z",
+      "descripcion": "06072024"
+    }
+  ]
+}
