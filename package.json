@@ -2,7 +2,7 @@
   "name": "my-app-aluraflix",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexandracynthia.github.io/AluraFlix_mendoza_ramirez",
+  "homepage": "https://alexandracynthia.github.io/AluraFlix_mendoza_ramirez/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
@@ -22,11 +22,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start:json-server": "json-server --watch db.json --port 3000"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
