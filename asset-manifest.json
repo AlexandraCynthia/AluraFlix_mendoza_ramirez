@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AluraFlix_mendoza_ramirez/static/css/main.c28b850e.css",
+    "main.js": "/AluraFlix_mendoza_ramirez/static/js/main.06dddebb.js",
+    "static/js/453.553e3bad.chunk.js": "/AluraFlix_mendoza_ramirez/static/js/453.553e3bad.chunk.js",
+    "index.html": "/AluraFlix_mendoza_ramirez/index.html",
+    "main.c28b850e.css.map": "/AluraFlix_mendoza_ramirez/static/css/main.c28b850e.css.map",
+    "main.06dddebb.js.map": "/AluraFlix_mendoza_ramirez/static/js/main.06dddebb.js.map",
+    "453.553e3bad.chunk.js.map": "/AluraFlix_mendoza_ramirez/static/js/453.553e3bad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c28b850e.css",
+    "static/js/main.06dddebb.js"
+  ]
+}
