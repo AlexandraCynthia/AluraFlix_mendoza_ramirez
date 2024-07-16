@@ -1,3 +1,16 @@
+El DB.JSON se encuentra alojado en el URL: https://db-json-alura-flix.onrender.com/videos
+Demora en cargar aprox 10seg
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
