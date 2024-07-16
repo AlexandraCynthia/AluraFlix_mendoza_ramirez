@@ -1,16 +1,19 @@
 .video-card {
   border: 7px solid;
   padding: 10px;
-  width: 429.19px;
-  height: 290.85px;
+  width: 300px;
+  height: 292px;
   top: 2.58px;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
+  
 }
 
-
+div .video-card{
+  height: 250px;
+}
 
 
 .video-card a {
@@ -19,17 +22,21 @@
 }
 
 .video-card img {
-  max-width: 435px;
+  max-width: 400px;
   border-radius: 8px;
 }
 
 .video-card-actions {
   display: flex;
   justify-content: space-around;
-  width: 430px;
-  height: 99px;
+  width: 287px;
+  
+  padding-top: -3%;
   background-color: black;
+}
 
+div .video-card-actions{
+  height: 25px;
 }
 
 .video-card-actions button {
@@ -48,8 +55,8 @@
 
 
 .img-card{
-  width: 430px;
-  height: 260.85px;
+  width: 280px;
+  height: 200px;
   padding: 0%;
   margin: 0%;
 }
@@ -69,4 +76,64 @@
 
 .video-card-actions button .fa-icon {
   margin-right: 5px;
+}
+
+
+/* Media Query Mobile */
+@media (max-width: 430px) {
+  .video-card {
+    width: 100%;
+    height: auto;
+    padding: 10%;
+    padding-top: 1%;
+  }
+
+  .img-card {
+    width: 350px;
+    height: 208px;
+  }
+
+  .video-list-container {
+    display: block;
+    overflow-x: auto;
+    
+  }
+
+  .scroll-button {
+    display: none;
+  }
+
+  .video-list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    width: 100%;
+    gap: 5px;
+  }
+
+  .video-list::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  .video-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+
+  .video-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .video-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .video-card-actions{
+    width: 364px;
+  }
+
+  contenedor-cards {
+    margin-top: 0; 
+  }
+
 }

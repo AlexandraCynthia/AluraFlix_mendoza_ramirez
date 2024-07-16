@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash, faEdit } from '@fortawesome/free-solid-svg-icons';
-import VideoContext from '../../VideoContext';  // Asegúrate de importar correctamente
+import VideoContext from '../../VideoContext';  
 import PopUp from '../PopUp/PopUp';
 import './VideoCard.css';
 

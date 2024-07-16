@@ -30,7 +30,7 @@ header {
     display: flex;
     background-color: #262626;
     color: #FFFFFF;
-    border: 4px solid white; /* Añade un borde para el efecto hover */
+    border: 4px solid white; 
 
     }
 
@@ -47,28 +47,27 @@ header {
 }
 
 .navegador ul li a {
-  text-decoration: none; /* Quita el subrayado */
-  color: inherit; /* Mantiene el color del texto según el estilo del sitio */
-  padding: 15px 15px; /* Añade relleno para hacer el área clicable más grande */
-  transition: all 0.3s ease; /* Añade una transición suave */
+  text-decoration: none; 
+  color: inherit; 
+  padding: 15px 15px; 
+  transition: all 0.3s ease; 
   box-shadow: 0px 5px 29px 0px rgba(70, 108, 190, 0.75)
 }
 
-
+/*Efecto de cambio de color al pasar el mouse encima*/
 
  .link-home:hover {
-  color: #2271D1; /* Color del texto al pasar el mouse */
-  border-color: #2271D1; /* Color del borde al pasar el mouse */
+  color: #2271D1; 
+  border-color: #2271D1; 
 }
 
 .navegador ul li a.link-home {
-  background-color: #262626; /* Fondo gris oscuro */
+  background-color: #262626; 
 }
 
 
 .navegador {
-  position: relative; /* Necesario para que el pseudo-elemento se posicione correctamente */
-  /* Otros estilos que necesites para el contenedor */
+  position: relative; 
 }
 
 .navegador::after {
@@ -77,8 +76,15 @@ header {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 10px; /* Ajusta esta altura según necesites */
-  background-color: #2271D1; /* Color de la base */
+  height: 10px; 
+  background-color: #2271D1; 
   padding: 0;
   margin: 0;
+}
+
+
+@media (max-width: 430px) {
+  .header {
+    display: none; /* Ocultará header en vista mobile */
+  }
 }

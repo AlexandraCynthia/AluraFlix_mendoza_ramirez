@@ -5,7 +5,7 @@ export const VideoProvider = ({ children }) => {
   const [videos, setVideos] = useState([]);
 
   const fetchVideos = () => {
-    fetch('http://localhost:3333/videos')
+    fetch('https://db-json-alura-flix.onrender.com/videos')
       .then(response => response.json())
       .then(data => setVideos(data))
       .catch(error => console.error('Error fetching videos:', error));
@@ -16,7 +16,7 @@ export const VideoProvider = ({ children }) => {
   }, []);
 
   const addVideo = (video) => {
-    fetch('http://localhost:3333/videos', {
+    fetch('https://db-json-alura-flix.onrender.com/videos', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -29,7 +29,7 @@ export const VideoProvider = ({ children }) => {
   };
 
   const deleteVideo = (id) => {
-    fetch(`http://localhost:3333/videos/${id}`, {
+    fetch(`https://db-json-alura-flix.onrender.com/videos/${id}`, {
       method: 'DELETE',
     })
       .then(() => fetchVideos())
@@ -37,7 +37,7 @@ export const VideoProvider = ({ children }) => {
   };
 
   const updateVideo = (updatedVideo) => {
-    fetch(`http://localhost:3333/videos/${updatedVideo.id}`, {
+    fetch(`https://db-json-alura-flix.onrender.com/videos/${updatedVideo.id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
