@@ -1,10 +1,11 @@
-import React, { useContext, useRef } from 'react';
+import React, { useContext, useRef, useState, useEffect } from 'react';
 import VideoCard from '../VideoCard/VideoCard';
 import VideoContext from '../../VideoContext';
 import './Home.css';
 
 function Home() {
   const { videos } = useContext(VideoContext);
+  const [loading, setLoading] = useState(true); // Estado de carga
   const categorias = {
     FrontEnd: { color: '#6BD1FF' },
     BackEnd: { color: '#00C86F' },
@@ -20,6 +21,12 @@ function Home() {
   const scrollRight = (categoria) => {
     scrollRef.current[categoria].scrollLeft += 300;  
   };
+
+  useEffect(() => {
+    if (videos.length > 0) {
+      setLoading(false);
+    }
+  }, [videos]);
 
   return (
     <div className='container-banner'>
@@ -39,9 +46,15 @@ function Home() {
           <div className="video-list-container">
             <button className="scroll-button left" onClick={() => scrollLeft(categoria)}>‹</button>
             <div className="video-list" ref={el => scrollRef.current[categoria] = el}>
-              {videos.filter(video => video.categoria === categoria).map(video => (
-                <VideoCard key={video.id} video={video} color={categorias[categoria].color} />
-              ))}
+              {loading ? (
+                <div className="loader-container">
+                  <div className="loader"></div>
+                </div>
+              ) : (
+                videos.filter(video => video.categoria === categoria).map(video => (
+                  <VideoCard key={video.id} video={video} color={categorias[categoria].color} />
+                ))
+              )}
             </div>
             <button className="scroll-button right" onClick={() => scrollRight(categoria)}>›</button>
           </div>

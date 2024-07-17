@@ -79,6 +79,7 @@ div .video-card-actions{
 }
 
 
+
 /* Media Query Mobile */
 @media (max-width: 430px) {
   .video-card {
@@ -137,3 +138,4 @@ div .video-card-actions{
   }
 
 }
+
